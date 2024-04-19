@@ -2,7 +2,7 @@
 
 include 'connect.php';
 
-if(isset($_POST['login-button'])){
+if(isset($_POST['login-button '])){
     $imie=$_POST['fName'];
     $nazwisko=$_POST['lName'];
     $email=$_POST['email'];
