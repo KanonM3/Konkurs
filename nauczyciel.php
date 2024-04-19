@@ -1,4 +1,13 @@
+<?php
+include 'connect_dane.php'; 
+$query="SELECT * FROM dane_uczniow";
+$result = mysqli_query($con, $query);
 
+if (!$result) {
+    die("Błąd zapytania SQL: " . mysqli_error($con));
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
@@ -23,8 +32,6 @@
             <li class="topnav-li"><a class="topnav-a" href="">Start<div class="underline"></div></a></li>
             <li class="topnav-li"><a class="topnav-a" href="">Jak to działa<div class="underline"></div></a></li>
             <li class="topnav-li"><a class="topnav-a" href="">Twoje zwolnienia<div class="underline"></div></a></li>
-
-
             <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.html">Utwórz konto<div class="underline"></div></a></li>
             <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="zaloguj.html">Zaloguj się<div class="underline"></div></a></li>
         </ul>
@@ -58,3 +65,4 @@ while($row=mysqli_fetch_array($result))
     </div>
 </body>
 </html>
+
