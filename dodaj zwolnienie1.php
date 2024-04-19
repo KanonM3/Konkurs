@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEvolution</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <!--Fonts-->
     <link rel="icon" type="image/png" href="icons/iPhone logo.png">
@@ -45,8 +46,6 @@
             <input class="input2" id="klasa" name="klasa" type="text">
             <p id="dodajZwolnienie-p" id="main2-p">Początek i koniec zwolnienia<span style="font-size:12px;color:grey">( np. 24.04.2024-24.05.2024)</span></p>
             <input class="input2" id="data" name="data" type="text">
-            <p id="dodajZwolnienie-p" id="main2-p">Dodaj zdjęcie fizycznego zwolnienia<span style="font-size:12px;color:grey"> jeżeli je posiadasz</span></p>
-            <input class="input2" id="zdjecie" name="zdjecie" type="file">
             <input id="submit" type="submit" value="wyślij">
         </form>
     </div>

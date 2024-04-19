@@ -14,6 +14,7 @@ include 'connect_dane.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEvolution</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <!--Fonts-->
     <link rel="icon" type="image/png" href="icons/iPhone logo.png">
@@ -27,19 +28,18 @@ include 'connect_dane.php';
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="">Jak to działa<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="">Twoje zwolnienia<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="strona ucznia.php">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.php">Twoje zwolnienia<div class="underline"></div></a></li>
 
 
-            <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.html">Utwórz konto<div class="underline"></div></a></li>
-            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="zaloguj.html">Zaloguj się<div class="underline"></div></a></li>
+
+            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="logout.php">Wyloguj się<div class="underline"></div></a></li>
         </ul>
     </div>
     <div id="buttons">
-        <a class="button2" href="uczeń.html">Uczeń</a>
+        <a class="button2" href="uczen.php">Uczeń</a>
         <a class="button2" href="dodaj zwolnienie1.php">Dodaj zwolnienie</a>
-        <a class="button2" href="twoje zwolnienia.html">Twoje zwolnienia</a>
+        <a class="button2" href="twoje zwolnienia.php">Twoje zwolnienia</a>
     </div>
     <div id="main2">
         <h1 id="main2-h1">Zwolnienia</h1>
