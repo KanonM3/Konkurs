@@ -261,3 +261,27 @@ a{
 #submit:hover{
     background-color: rgb(255, 36, 128);
 }
+#login-container{
+    width: 40%;
+    margin:auto;
+    margin-top:200px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50px;
+    text-align: center;
+    padding:20px;
+    border: 2px solid violet;
+}
+.input2{
+    width: 60%;
+    border:none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    background-color: rgb(230, 230, 230);
+    margin:30px;
+}
+#submit2{
+    width: 60%;
+}
+#submit2:hover{
+    background-color: rgb(179, 0, 233);
+}
