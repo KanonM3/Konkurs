@@ -45,7 +45,7 @@
             <label class="checkbox" for="typ_użytkownika">Uczen</label>
             <input class="checkbox" type="radio" id="Nauczyciel" value="Nauczyciel" name="typ_użytkownika">
             <label class="checkbox" for="typ_użytkownika">Nauczyciel </label>
-            <input class="checkbox" type="radio" id="Lekarz" value="lekarz" name="typ_użytkownika">
+            <input class="checkbox" type="radio" id="Lekarz" value="Lekarz" name="typ_użytkownika">
             <label class="checkbox" for="typ_użytkownika" >Lekarz</label><br>
             <input id="submit" type="submit" name="submit" value="zarejestruj się">
         </form>
