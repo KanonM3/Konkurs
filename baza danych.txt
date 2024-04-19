@@ -1,0 +1,4 @@
+baza danych uzytkownik bedzie nauczyciel,uczen,doktor i strona bedzie wyswietlana po zalogowaniu na podstawie informacji uzytkownika
+
+
+id,imie,nazwisko,email,haslo,uzytkownik
