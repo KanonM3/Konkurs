@@ -285,3 +285,13 @@ a{
 #submit2:hover{
     background-color: rgb(179, 0, 233);
 }
+.tableHeader{
+    text-align: center;
+    padding:10px 50px;
+}
+#table1,td,th{
+    margin:auto;
+    margin-top:100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
