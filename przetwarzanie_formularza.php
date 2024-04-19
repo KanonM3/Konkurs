@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $powod_zwolnienia=$_POST['powod'];
     $klasa=$_POST['klasa'];
     $nazwisko=$_POST['nazwisko'];
-
+    $termin_zwolnienia=$_POST[''];
      $checkEmail="SELECT * From users where email='$email'";
      $result=$conn->query($checkEmail);
      if($result->num_rows>0){
