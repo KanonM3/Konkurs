@@ -328,3 +328,12 @@ a{
     text-align: center;
 
 }
+.input2{
+    width: 50%;
+    height: 30px;
+    margin:10px 25%;
+}
+#dodajZwolnienie-p{
+    text-align:left;
+    margin:10px 25%;
+}
