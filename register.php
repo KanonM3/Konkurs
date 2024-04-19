@@ -8,6 +8,7 @@ if(isset($_POST['signUp'])){
     $email=$_POST['email'];
     $haslo=$_POST['password'];
     $haslo=md5($haslo);
+    $uzytkownik=$_POST['uzytkownik'];
 
      $checkEmail="SELECT * From users where email='$email'";
      $result=$conn->query($checkEmail);
