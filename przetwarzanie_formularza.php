@@ -1,22 +1,30 @@
 <?php
-require_once('connect_dane.php');
+include 'connect.php';
+include 'connect.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $imie = $_POST["imie"];
-    $nazwisko = $_POST["nazwisko"];
-    $klasa = $_POST["klasa"];
-    $termin_zwolnienia = $_POST["termin_zwolnienia"];
-    $powod_zwolnienia = $_POST["powod_zwolnienia"];
+if(isset($_POST['submit'])){
+    $imie=$_POST['imie'];
+    $nazwisko=$_POST['nazwisko'];
+    $powod_zwolnienia=$_POST['powod'];
+    $klasa=$_POST['klasa'];
+    $nazwisko=$_POST['nazwisko'];
 
-    
-    $query = "INSERT INTO dane_uczniow (imie, nazwisko, klasa, termin_zwolnienia, powod_zwolnienia) VALUES ('$imie', '$nazwisko', '$klasa', '$termin_zwolnienia', '$powod_zwolnienia')";
+     $checkEmail="SELECT * From users where email='$email'";
+     $result=$conn->query($checkEmail);
+     if($result->num_rows>0){
+        echo "Email Address Already Exists !";
+     }
+     else{
+        $insertQuery="INSERT INTO users(imie,nazwisko,email,haslo,uzytkownik)
+                       VALUES ('$imie','$nazwisko','$email','$haslo','$uzytkownik')";
+            if($conn->query($insertQuery)==TRUE){
+                header("location: zaloguj.php");
+            }
+            else{
+                echo "Error:".$conn->error;
+            }
+     }
+   
 
-    if (mysqli_query($conn, $query)) {
-        echo "Dane zostały dodane poprawnie.";
-    } else {
-        echo "Błąd: " . $query . "<br>" . mysqli_error($conn);
-    }
 }
-
-mysqli_close($conn);
 ?>
