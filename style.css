@@ -285,3 +285,46 @@ a{
 #submit2:hover{
     background-color: rgb(179, 0, 233);
 }
+.tableHeader{
+    text-align: center;
+    padding:10px 50px;
+}
+#table1,td,th{
+    margin:auto;
+    margin-top:100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#main2{
+    width: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50px;
+    margin:auto;
+    margin-top:100px;
+    border: 2px solid rgb(233, 0, 221);
+}
+#main2-h1{
+    text-align: left;
+    padding:20px;
+    margin-left:20px;
+}
+#main2-p{
+    padding:10px;
+    margin:5px 20px;
+}
+.button2{
+    margin:10px;
+    padding:20px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    border: 1px solid rgb(233, 0, 136);
+}
+.button2:hover{
+    color:white;
+    background-color: rgb(233, 0, 136);
+}
+#buttons{
+    margin-top:100px;
+    text-align: center;
+
+}
