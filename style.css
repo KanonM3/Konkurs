@@ -30,7 +30,7 @@ body{
     color:rgb(19, 19, 19);
 }
 .topnav-li:hover{
-    background-color: rgb(255, 36, 128);
+    background-color: rgb(255, 36, 128) !important;
     border-radius: 20px;
 }
 .underline{
@@ -64,4 +64,144 @@ body{
         margin-top:00px;
         opacity: 1;
     }
+}
+#start{
+    margin-top:100px;
+    width: 100%;
+}
+#left{
+    float:left;
+    width: 50%;
+}
+#right{
+    float:right;
+    width: 50%;
+}
+#phone{
+    transform: translate(-50%,0);
+    position: absolute;
+    left:25%;
+    z-index:5;
+}
+#circle1{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    left:25%;
+    z-index:4;
+    transform: translate(-50%,-50%);
+    top:550px;
+    background-color: rgb(255, 36, 128);
+    opacity: 0.6;
+    animation:circle1Animation1 6s infinite;
+}
+#circle2{
+    top:550px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    position: absolute;
+    left:25%;
+    z-index:3;
+    transform: translate(-50%,-50%);
+    background-color: rgb(233, 0, 221);
+    opacity: 0.6;
+    animation:circle1Animation2 7s infinite;
+}
+#circle3{
+    top:550px;
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    position: absolute;
+    left:25%;
+    z-index:2;
+    transform: translate(-50%,-50%);
+    background-color: rgb(179, 0, 233);
+    opacity: 0.5;
+    animation:circle1Animation3 8s infinite;
+}
+@keyframes circle1Animation1{
+    from{
+        width: 450px;
+        height: 450px;
+    }
+    50%{
+        width: 250px;
+        height: 250px;
+    }
+    to{
+        width: 450px;
+        height: 450px;
+    }
+}
+@keyframes circle1Animation2{
+    from{
+        width: 550px;
+        height: 550px;
+    }
+    50%{
+        width: 350px;
+        height: 350px;
+    }
+    to{
+        width: 550px;
+        height: 550px;
+    }
+}
+@keyframes circle1Animation3{
+    from{
+        width: 650px;
+        height: 650px;
+    }
+    50%{
+        width: 450px;
+        height: 450px;
+    }
+    to{
+        width: 650px;
+        height: 650px;
+    }
+}
+#right-h1{
+    font-size:120px;
+    color:rgb(44, 44, 44);
+}
+#start-p{
+    color:grey;
+    max-width: 600px;
+    padding:10px;
+}
+#right-button{
+    margin:20px 5px;
+    padding:20px;
+    background-color: rgb(153, 64, 226);
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color:rgb(19, 19, 19);
+}
+#right-button:hover{
+    background-color: rgb(233, 0, 136);
+}
+#boyFallingDown{
+    position: absolute;
+    left:50%;
+    z-index:-1;
+}
+#opis1{
+    margin-top:125vh;
+}
+#opis1-h1{
+    font-size:50px;
+    color:rgb(44, 44, 44);
+    text-align: center;
+}
+#opis1-p{
+    text-align: center;
+    color:grey;
+    margin:50px auto;
+    max-width: 70%;
 }
