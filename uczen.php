@@ -35,7 +35,18 @@
     <div id="main2">
         <h1 id="main2-h1">O uczniu</h1>
         <p style="font-weight: 700;" id="main2-p">Imię i nazwisko</p>
-        <p id="main2-p">Adolf Stalin</p>
+        <p id="main2-p">
+            <?php 
+            if(isset($_SESSION['email'])){
+                $email=$_SESSION['email'];
+                $query=mysqli_query($conn, "SELECT users.* FROM `users` WHERE users.email='$email'");
+                while($row=mysqli_fetch_array($query)){
+                    echo $row['imie'].' '.$row['nazwisko'];
+                }
+            }
+        
+            ?>
+        </p>
         <p style="font-weight: 700;" id="main2-p">Ostatnie zwolnienie:</p>
         <p id="main2-p">24.04.24-24.05.2024</p>
     </div>
