@@ -39,8 +39,7 @@
         <input class="input2" id="klasa" name="klasa" type="text">
         <p id="dodajZwolnienie-p" id="main2-p">Początek i koniec zwolnienia<span style="font-size:12px;color:grey">( np. 24.04.2024-24.05.2024)</span></p>
         <input class="input2" id="data" name="data" type="text">
-        <p id="dodajZwolnienie-p" id="main2-p">Imię i nazwisko lekarza</p>
-        <input class="input2" id="imieINazwLek" name="imieINazwLek" type="text">
+        
         <input id="submit" type="submit" value="wyślij">
     </form>
 </body>
