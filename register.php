@@ -2,13 +2,13 @@
 
 include 'connect.php';
 
-if(isset($_POST['login-button'])){
-    $imie=$_POST['fName'];
-    $nazwisko=$_POST['lName'];
+if(isset($_POST['submit'])){
+    $imie=$_POST['imie'];
+    $nazwisko=$_POST['nazwisko'];
     $email=$_POST['email'];
     $haslo=$_POST['password'];
     $haslo=md5($haslo);
-    $uzytkownik=$_POST['uzytkownik'];
+    $uzytkownik=$_POST['typ_użytkownika'];
 
      $checkEmail="SELECT * From users where email='$email'";
      $result=$conn->query($checkEmail);
@@ -29,7 +29,7 @@ if(isset($_POST['login-button'])){
 
 }
 
-if(isset($_POST['signIn'])){
+if(isset($_POST['submit2'])){
    $email=$_POST['email'];
    $haslo=$_POST['haslo'];
    $haslo=md5($haslo) ;
@@ -40,7 +40,7 @@ if(isset($_POST['signIn'])){
     session_start();
     $row=$result->fetch_assoc();
     $_SESSION['email']=$row['email'];
-    header("Location: homepage.php");
+    header("Location: nauczyciel.php");
     exit();
    }
    else{

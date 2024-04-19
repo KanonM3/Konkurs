@@ -29,23 +29,24 @@
     </div>
     <div id="sign-up-container">
         <h1 style="text-align: center;padding:30px">Utwórz konto</h1>
-        <form method="post">
+        <form method="post" action="register.php">
             <p id="input-p">Imię</p>
             <input class="input" id="imie" name="imie" type="text">
             <p id="input-p">Nazwisko</p>
             <input class="input" id="nazwisko" name="nazwisko" type="text">
             <p id="input-p">E-mail</p>
-            <input class="input" id="e-mail" name="e-mail" type="text">
+            <input class="input" id="email" name="e-mail" type="text">
             <p id="input-p">Hasło</p>
             <input class="input" id="password" name="password" type="password">
             <br>
             <p id="input-p">Jestem:</p>
-            <input style="margin-left:25%;" class="checkbox" type="radio" id="Uczeń" name="typ_użytkownika">
-            <label class="checkbox" for="typ_użytkownika">Uczniem</label>
-            <input class="checkbox" type="radio" id="Uczeń" name="typ_użytkownika">
-            <label class="checkbox" for="typ_użytkownika">Nauczycielem </label>
-            <input class="checkbox" type="radio" id="Uczeń" name="typ_użytkownika">
-            <label class="checkbox" for="typ_użytkownika">Lekarzem</label><br>
+
+            <input style="margin-left:25%;" class="checkbox" type="radio" id="Uczen" name="typ_użytkownika">
+            <label class="checkbox" for="typ_użytkownika">Uczen</label>
+            <input class="checkbox" type="radio" id="Nauczyciel" name="typ_użytkownika">
+            <label class="checkbox" for="typ_użytkownika">Nauczyciel </label>
+            <input class="checkbox" type="radio" id="Lekarz" name="typ_użytkownika">
+            <label class="checkbox" for="typ_użytkownika">Lekarz</label><br>
             <input id="submit" type="submit" value="zarejestruj się">
         </form>
     </div>
