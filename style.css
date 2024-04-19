@@ -205,3 +205,59 @@ a{
     margin:50px auto;
     max-width: 70%;
 }
+#container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:70px;
+}
+
+#p1{
+    border:2px solid violet;
+    margin:40px;
+    margin-top:50px;
+    width: 30%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 40px;
+}
+#opis1-p{
+    padding:20px;
+}
+#sign-up-container{
+    margin:auto;
+    margin-top:200px;
+    width: 40%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50px;
+    border:2px solid violet;
+}
+.input{
+    width: 50%;
+    margin-left:25%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 35px;
+    background-color: rgb(230, 230, 230);
+}
+#input-p{
+    margin-top:20px;
+    margin-left:25%;
+    padding:10px;
+}
+.checkbox{
+    margin-bottom: 50px;
+    padding:10px;
+}
+#submit{
+    border: none;
+    font-size:16px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: rgb(233, 0, 221);
+    margin:40px;
+    padding:20px;
+    width: 50%;
+    margin-left:25%;
+}
+#submit:hover{
+    background-color: rgb(255, 36, 128);
+}
