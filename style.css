@@ -352,5 +352,32 @@ a{
 }
 #aboutApp-p{
     color:grey;
-    
+
+}
+#potwierdz{
+    margin:150px auto;
+    width: 50%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50px;
+    border: 2px solid rgb(153, 64, 226);
+    text-align: center;
+}
+#potwierdz-h1{
+    padding:20px;
+    margin:10px;
+}
+#potwierdz-h2,#potwierdz-p{
+    text-align: left;
+    margin: 10px 20px;
+    margin-left:50px;
+}
+#potwierdzPrzycisk,#odrzućPrzycisk{
+    padding:20px;
+    background-color: rgb(136, 255, 67);
+    border: none;
+    border-radius: 20px;
+    margin:20px;
+}
+#potwierdzPrzycisk:hover,#odrzućPrzycisk:hover{
+    background-color: rgb(159, 0, 233) !important;
 }

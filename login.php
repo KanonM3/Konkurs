@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
        if($uzytkownik == 'Uczen') {
           header("Location: uczen.php");
        } elseif ($uzytkownik == 'Nauczyciel') {
-          header("Location: widok_nauczyciela-zwolnienia1.php");
+          header("Location: nauczyciel.php");
        } elseif ($uzytkownik == 'Lekarz') {
           header("Location: lekarz1.php");
        } else {
@@ -27,7 +27,7 @@ if(isset($_POST['submit'])){
        exit();
     }
     else{
-       echo "Not Found, Incorrect Email or Password";
+       echo "Wprowadziłeś błędny e-mail lub hasło";
     }
  }
 ?>
