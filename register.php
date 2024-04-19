@@ -3,11 +3,11 @@
 include 'connect.php';
 
 if(isset($_POST['signUp'])){
-    $firstName=$_POST['fName'];
-    $lastName=$_POST['lName'];
+    $imie=$_POST['fName'];
+    $nazwisko=$_POST['lName'];
     $email=$_POST['email'];
-    $password=$_POST['password'];
-    $password=md5($password);
+    $haslo=$_POST['password'];
+    $haslo=md5($haslo);
 
      $checkEmail="SELECT * From users where email='$email'";
      $result=$conn->query($checkEmail);
@@ -15,8 +15,8 @@ if(isset($_POST['signUp'])){
         echo "Email Address Already Exists !";
      }
      else{
-        $insertQuery="INSERT INTO users(firstName,lastName,email,password)
-                       VALUES ('$firstName','$lastName','$email','$password')";
+        $insertQuery="INSERT INTO users(imie,nazwisko,email,haslo,uzytkownik)
+                       VALUES ('$imie','$nazwisko','$email','$haslo','$uzytkownik')";
             if($conn->query($insertQuery)==TRUE){
                 header("location: index.php");
             }
@@ -30,10 +30,10 @@ if(isset($_POST['signUp'])){
 
 if(isset($_POST['signIn'])){
    $email=$_POST['email'];
-   $password=$_POST['password'];
-   $password=md5($password) ;
+   $haslo=$_POST['haslo'];
+   $haslo=md5($haslo) ;
    
-   $sql="SELECT * FROM users WHERE email='$email' and password='$password'";
+   $sql="SELECT * FROM users WHERE email='$email' and password='$haslo'";
    $result=$conn->query($sql);
    if($result->num_rows>0){
     session_start();
