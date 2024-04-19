@@ -1,10 +1,10 @@
 <?php
 include 'connect_dane.php'; 
 $query="SELECT * FROM dane_uczniow";
-$result = mysqli_query($conn, $query);
+$result = mysqli_query($con, $query);
 
 if (!$result) {
-    die("Błąd zapytania SQL: " . mysqli_error($conn));
+    die("Błąd zapytania SQL: " . mysqli_error($con));
 }
 
 ?>
