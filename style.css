@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    animation: showAnimation  1s infinite;
+    animation-iteration-count: 1;
+}
+#topnav-ul{
+    list-style-type: none;
+}
+#topnav{
+    width: 100%;
+    margin-top:30px;
+    text-align: center;
+}
+.topnav-li{
+    display: inline-block;
+    padding:10px 30px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.topnav-a{
+    text-decoration: none;
+    color:rgb(19, 19, 19);
+}
+.topnav-li:hover{
+    background-color: rgb(255, 36, 128);
+    border-radius: 20px;
+}
+.underline{
+    width: 75%;
+    visibility: hidden;
+    position: relative;
+    height: 1px;
+    background-color: rgb(19, 19, 19);
+}
+@keyframes underlineAnimation{
+    from{
+        width: 0%;
+        opacity:0;
+    }
+    to{
+        width: 75%;
+        opacity: 1.0;
+    }
+}
+.topnav-a:hover>.underline{
+    visibility: visible;
+    animation: underlineAnimation 1s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes showAnimation{
+    from{
+        margin-top:-300px;
+        opacity:0;
+    }
+    to{
+        margin-top:00px;
+        opacity: 1;
+    }
+}
