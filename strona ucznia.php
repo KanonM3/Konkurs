@@ -19,10 +19,9 @@
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="strona ucznia.html">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="Jak to działa.html">Jak to działa<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.html">Twoje zwolnienia<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="dodaj zwolnienie1.html">Dodaj zwolnienie<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="strona ucznia.php">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.php">Twoje zwolnienia<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="dodaj zwolnienie1.php">Dodaj zwolnienie<div class="underline"></div></a></li>
 
 
      

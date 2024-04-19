@@ -19,13 +19,13 @@
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="">Jak to działa<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="">Twoje zwolnienia<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="index.php">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="Jak to działa.php">Jak to działa<div class="underline"></div></a></li>
+            
 
 
-            <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="">Utwórz konto<div class="underline"></div></a></li>
-            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="">Zaloguj się<div class="underline"></div></a></li>
+            <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.php">Utwórz konto<div class="underline"></div></a></li>
+            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="zaloguj.php">Zaloguj się<div class="underline"></div></a></li>
         </ul>
     </div>
     <div id="login-container">

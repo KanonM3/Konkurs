@@ -19,19 +19,17 @@
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="strona ucznia.html">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="Jak to działa.html">Jak to działa<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.html">Twoje zwolnienia<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="strona ucznia.php">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.php">Twoje zwolnienia<div class="underline"></div></a></li>
 
 
-            <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="">Utwórz konto<div class="underline"></div></a></li>
-            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="">Zaloguj się<div class="underline"></div></a></li>
+            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="logout.php">Wyloguj się<div class="underline"></div></a></li>
         </ul>
     </div>
     <div id="buttons">
-        <a class="button2" href="uczeń.html">Uczeń</a>
-        <a class="button2" href="#">Dodaj zwolnienie</a>
-        <a class="button2" href="twoje zwolnienia.html">Twoje zwolnienia</a>
+        <a class="button2" href="uczen.php">Uczeń</a>
+        <a class="button2" href="dodaj zwolnienie1.php">Dodaj zwolnienie</a>
+        <a class="button2" href="twoje zwolnienia.php">Twoje zwolnienia</a>
     </div>
     <div id="main2" style="width: 50%;">
         <form method="post">
