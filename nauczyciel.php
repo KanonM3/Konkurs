@@ -1,11 +1,5 @@
 
-<?php
-require_once('connect_dane.php');
-$query="SELECT * from dane_uczniow";
-$result = mysqli_query($conn, $query);
-
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl-PL">
 <head>
     <meta charset="UTF-8">
@@ -63,7 +57,3 @@ while($row=mysqli_fetch_array($result))
     </div>
 </body>
 </html>
-<?php
-
-mysqli_close($conn);
-?>
