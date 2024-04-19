@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
        if($uzytkownik == 'Uczen') {
           header("Location: uczen.php");
        } elseif ($uzytkownik == 'Nauczyciel') {
-          header("Location: widok nauczyciela-zwolnienia1.php");
+          header("Location: widok_nauczyciela-zwolnienia1.php");
        } elseif ($uzytkownik == 'Lekarz') {
           header("Location: lekarz1.php");
        } else {
