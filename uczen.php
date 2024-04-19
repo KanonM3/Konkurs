@@ -18,11 +18,9 @@
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="index.html">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="Jak to działa.html">Jak to działa<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="index.php">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="Jak to dziala.html">Jak to działa<div class="underline"></div></a></li>
             <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.html">Twoje zwolnienia<div class="underline"></div></a></li>
-
-
             <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.html">Utwórz konto<div class="underline"></div></a></li>
             <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="zaloguj.html">Zaloguj się<div class="underline"></div></a></li>
         </ul>
