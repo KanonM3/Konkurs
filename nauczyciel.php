@@ -1,5 +1,5 @@
 <?php
-require_once('connect_dane.php');
+include 'connect_dane.php'; 
 $query="SELECT * FROM dane_uczniow";
 $result = mysqli_query($conn, $query);
 
