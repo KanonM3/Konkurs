@@ -1,4 +1,5 @@
-<?php 
-$host="localhost";
+<?php
 
+$host="localhost";
+sadaolfisuhfsuihasfg
 ?>
