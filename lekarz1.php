@@ -34,11 +34,11 @@
         <p id="dodajZwolnienie-p" id="main2-p">Nazwisko</p>
         <input class="input2" id="nazwisko" name="nazwisko" type="text">
         <p id="dodajZwolnienie-p" id="main2-p">Powód</p>
-        <input class="input2" id="powod" name="powod" type="text">
+        <input class="input2" id="powod_zwolnienia" name="powod_zwolnienia" type="text">
         <p id="dodajZwolnienie-p" id="main2-p">Klasa</p>
         <input class="input2" id="klasa" name="klasa" type="text">
-        <p id="dodajZwolnienie-p" id="main2-p" name="termin_zwolnienia">Początek i koniec zwolnienia<span style="font-size:12px;color:grey">( np. 24.04.2024-24.05.2024)</span></p>
-        <input class="input2" id="data" name="data" type="text">
+        <p id="dodajZwolnienie-p" id="main2-p">Początek i koniec zwolnienia<span style="font-size:12px;color:grey">( np. 24.04.2024-24.05.2024)</span></p>
+        <input class="input2" id="termin_zwolnienia" name="termin_zwolnienia" type="text">
         
         <input id="submit" name="submit" type="submit" value="wyślij">
     </form>
