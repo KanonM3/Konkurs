@@ -30,7 +30,7 @@
     </div>
     <div id="start">
         <div id="left">
-            <img id="phone" src="apple-iphone-13-pro-max-2021-medium.png">
+            <img id="phone" src="apple phone.png">
             <div id="circle1"></div>
             <div id="circle2"></div>
             <div id="circle3"></div>
