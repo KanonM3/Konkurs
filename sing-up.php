@@ -35,19 +35,19 @@
             <p id="input-p">Nazwisko</p>
             <input class="input" id="nazwisko" name="nazwisko" type="text">
             <p id="input-p">E-mail</p>
-            <input class="input" id="email" name="e-mail" type="text">
+            <input class="input" id="email" name="email" type="text">
             <p id="input-p">Hasło</p>
             <input class="input" id="password" name="password" type="password">
             <br>
             <p id="input-p">Jestem:</p>
 
-            <input style="margin-left:25%;" class="checkbox" type="radio" id="Uczen" name="typ_użytkownika">
+            <input style="margin-left:25%;" class="checkbox" type="radio" id="Uczen" value="Uczen" name="typ_użytkownika">
             <label class="checkbox" for="typ_użytkownika">Uczen</label>
-            <input class="checkbox" type="radio" id="Nauczyciel" name="typ_użytkownika">
+            <input class="checkbox" type="radio" id="Nauczyciel" value="Nauczyciel" name="typ_użytkownika">
             <label class="checkbox" for="typ_użytkownika">Nauczyciel </label>
-            <input class="checkbox" type="radio" id="Lekarz" name="typ_użytkownika">
-            <label class="checkbox" for="typ_użytkownika">Lekarz</label><br>
-            <input id="submit" type="submit" value="zarejestruj się">
+            <input class="checkbox" type="radio" id="Lekarz" value="lekarz" name="typ_użytkownika">
+            <label class="checkbox" for="typ_użytkownika" >Lekarz</label><br>
+            <input id="submit" type="submit" name="submit" value="zarejestruj się">
         </form>
     </div>
 </body>

@@ -29,9 +29,9 @@ if(isset($_POST['submit'])){
 
 }
 
-if(isset($_POST['submit2'])){
+if(isset($_POST['submit2'])){ 
    $email=$_POST['email'];
-   $haslo=$_POST['haslo'];
+   $haslo=$_POST['password'];
    $haslo=md5($haslo) ;
    
    $sql="SELECT * FROM users WHERE email='$email' and password='$haslo'";
@@ -40,7 +40,7 @@ if(isset($_POST['submit2'])){
     session_start();
     $row=$result->fetch_assoc();
     $_SESSION['email']=$row['email'];
-    header("Location: nauczyciel.php");
+    header("Location: register.php");
     exit();
    }
    else{
