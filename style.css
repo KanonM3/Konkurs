@@ -298,6 +298,7 @@ a{
     margin-top:100px;
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 #main2{
     width: 60%;
@@ -380,4 +381,13 @@ a{
 }
 #potwierdzPrzycisk:hover,#odrzućPrzycisk:hover{
     background-color: rgb(159, 0, 233) !important;
+}
+@media (max-width:720px){
+    #PElogo{
+        visibility: hidden;
+    }
+    #topnav-li{
+        display:block;
+        max-width: 80%;
+    }
 }
