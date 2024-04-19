@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+include 'connect_dane.php';
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
@@ -18,9 +27,9 @@
     <div id="topnav">
         <ul id="topnav-ul">
             <li style="position: absolute;font-weight: 750;letter-spacing: 5px;left:50px;" class="topnav-li">PEvolution</li>
-            <li class="topnav-li"><a class="topnav-a" href="index.html">Start<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="Jak to działa.html">Jak to działa<div class="underline"></div></a></li>
-            <li class="topnav-li"><a class="topnav-a" href="twoje zwolnienia.html">Twoje zwolnienia<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="">Start<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="">Jak to działa<div class="underline"></div></a></li>
+            <li class="topnav-li"><a class="topnav-a" href="">Twoje zwolnienia<div class="underline"></div></a></li>
 
 
             <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.html">Utwórz konto<div class="underline"></div></a></li>
@@ -29,26 +38,42 @@
     </div>
     <div id="buttons">
         <a class="button2" href="uczeń.html">Uczeń</a>
-        <a class="button2" href="">Dodaj zwolnienie</a>
+        <a class="button2" href="dodaj zwolnienie1.php">Dodaj zwolnienie</a>
         <a class="button2" href="twoje zwolnienia.html">Twoje zwolnienia</a>
     </div>
     <div id="main2">
-        <h1 id="main2-h1">O uczniu</h1>
-        <p style="font-weight: 700;" id="main2-p">Imię i nazwisko</p>
+        <h1 id="main2-h1">Zwolnienia</h1>
+        <p style="font-weight: 700;" id="main2-p">Uczeń:</p>
+        <p id="main2-p">
+<?php
+echo'Mateusz';
+?>
+
+
+        </p>
+        <p style="font-weight: 700;" id="main2-p">Powód zwolnienia:</p>
+        <p id="main2-p">
+
+        <?php 
+        echo'Złamana noga';
+        
+        ?>
+       
+ </p>
+        <p style="font-weight: 700;" id="main2-p">Termin:</p>
         <p id="main2-p">
             <?php 
-            if(isset($_SESSION['email'])){
-                $email=$_SESSION['email'];
-                $query=mysqli_query($conn, "SELECT users.* FROM `users` WHERE users.email='$email'");
-                while($row=mysqli_fetch_array($query)){
-                    echo $row['imie'].' '.$row['nazwisko'];
-                }
-            }
-        
+            
+            echo'24.04.2024-25.06.2024';
+            
+            
             ?>
-        </p>
-        <p style="font-weight: 700;" id="main2-p">Ostatnie zwolnienie:</p>
-        <p id="main2-p">24.04.24-24.05.2024</p>
+  
+
+
+
+
+        </p><br>
     </div>
 </body>
 </html>

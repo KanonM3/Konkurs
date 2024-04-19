@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
        $uzytkownik = $row['uzytkownik'];
        
        if($uzytkownik == 'Uczen') {
-          header("Location: uczen.php");
+          header("Location: strona ucznia.php");
        } elseif ($uzytkownik == 'Nauczyciel') {
           header("Location: nauczyciel.php");
        } elseif ($uzytkownik == 'Lekarz') {

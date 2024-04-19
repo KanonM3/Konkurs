@@ -24,8 +24,8 @@
             <li class="topnav-li"><a class="topnav-a" href="dodaj zwolnienie1.html">Dodaj zwolnienie<div class="underline"></div></a></li>
 
 
-            <li style="position: relative;left:20%;background-color: blueviolet;border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="sing-up.php">Utwórz konto<div class="underline"></div></a></li>
-            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="zaloguj.php">Zaloguj się<div class="underline"></div></a></li>
+     
+            <li style="position: relative;left:20%;background-color: rgb(212, 0, 255);border-radius: 20px;" class="topnav-li"><a class="topnav-a" href="logout.php">Wyloguj się<div class="underline"></div></a></li>
         </ul>
     </div>
     <div id="start">
@@ -41,8 +41,7 @@
             <p id="start-p">Kontroluj zwolnienia lekarskie z zajęć sportowych łatwo, wszędzie, zawsze.<br>
             PEvolution to strona internetowa do zarządzania zwolnieniami z każdego miejsca i jak najłatwiejszym sposobem,<br> pozbądź się zbędnych papierowych zwolnień i utwórz konto tutaj.</p>
             <br>
-            <a id="right-button" href="">Utwórz konto</a>
-            <a id="right-button" href="">Jak to działa</a>
+            <a id="right-button" href="Jak to działa.php">Jak to działa</a>
             <img id="boyFallingDown" src="boy falling down.png">
         </div>
     </div>
