@@ -28,13 +28,13 @@
         </ul>
     </div>
     <div id="login-container">
-        <form method="post" action="register.php">
+        <form method="post" action="login.php">
             <h1 id="login-h1">Zaloguj się</h1>
             <p style="margin-top:50px">E-mail</p>
-            <input class="input2" name="e-mail" type="text" name="e-mail">
+            <input class="input2" id="email" name="email" type="text">
             <p style="margin-top:50px">Hasło</p>
-            <input class="input2" name="password" type="password" name="hasło">
-            <input id="submit" style="width: 60%;margin-left:5%" type="submit" value="zaloguj-się">
+            <input class="input2" id="password" name="password" type="password" >
+            <input id="submit" style="width: 60%;margin-left:5%" name="submit" type="submit" value="zaloguj-się">
         </form>
     </div>
 </body>
